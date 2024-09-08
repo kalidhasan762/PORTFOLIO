@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        header{
+            background-color: #333;
+            color: hsl(88, 98%, 50%);
+            padding: 1rem;
+            text-align: center;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            padding:0;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin: 0 1rem;
+        }
+        
+        nav ul li a {
+            color: rgb(190, 245, 24);
+            text-decoration: none;
+        }
+        
+        section {
+            padding: 2rem;
+        }  
+
+        .flec-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 2rem;
+        }
+        
+        .project, .skill-item {
+            border: 1px solid #9de910;
+            padding: 1rem;
+            margin: 1rem;
+            border-radius: 5px;
+            text-align: center;
+            width: 45%;
+        }
+        
+        form {
+            display: flex;
+            flex-direction: column;
+        }           
+        
+        form label {
+            margin-top: 1rem;
+        }
+
+    form input, form textarea, form button {
+        padding: 0.5rem;
+        margin-top: 0.5rem;
+    }
+    
+    footer {
+        background-color: #454545;
+        color: rgb(231, 255, 133);
+        text-align: center;
+        padding: 1rem;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+    }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+<section id="about">
+    <h1>ABOUT ME</h1>
+<div class="flex-container">
+    <img src="c:\Users\baran\OneDrive\Desktop\kalidhasan image.png" alt="Your Photo" class="profile pic">
+    <p><h2>Hello! This is KALIDHASAN V, A passionate web developer with experience in creating dynamic and responsive websites.</h2></p>
+    </div>
+</section>
+<section id="projects">
+<h1>PROJECTS</h1>
+    <div class="flex-container">
+    <div class="project">
+    <h2>Project 1: LOGIN PAGE</h2>
+    <P>Responsive Design: Ensures a seamless user experience device.on any Input Validation: Enhances security by validating username and password inputs.Hashing: Demonstrates client-side hashing.</P>
+    </div>
+    <div class="project">
+        <h2>Project 2: CALCULATOR</h2>
+        <P>Creating a calculator using HTML, CSS, and JavaScript is a great project for honing web development skills.The project involves building a simple, yet functional, web-based calculator that performs basic arithmetic operations such as addition, subtraction, multiplication, and division.</P>
+    </div>
+    </div>
+</section>
+<section id="skills">
+    <h1>SKILLS</h1>
+    <div class="flex-container">
+    <div class="skill-item">
+        <h3>HTML</h3>
+    </div>
+    <div class="skill-item">
+        <h3>CSS</h3>
+    </div>
+    <div class="skill-item">
+        <h3>JavaScript</h3>
+    </div>
+    <div class="skill-item">
+        <h3>C Language</h3>
+    </div>
+    <div class="skill-item">
+        <h3>Python</h3>
+        </div>
+        </div>
+</section>
+<section id="contact">
+<h1>CONTACT</h1>
+<form id="contact-form">
+<li><a href="callto:9342416745">Contact no.</a><li>
+    <li><a href="mailto:kalidhasan762@gmail.com">Email</a><li>
+        <li><a href=https://github.com/kalidhasan762>Github</a><li>
+            <li><a href=https://www.linkedin.com/in/kalidhasan-v-9640732a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app>Linkedin</a><li>
+            </form>
+            </section>
+            <footer>
+                <p>@ 2024 Kalidhasan's portfolio.All rightsreserved.</p>
+            </footer>
+            <script src="scripts.js"></script>
+            </body>
+            </html>
